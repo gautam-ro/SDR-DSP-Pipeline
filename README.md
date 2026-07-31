@@ -9,7 +9,7 @@ A Python-based digital signal processing (DSP) pipeline designed to process real
 * **IQ Signal Generation & Acquisition:** Simulates continuous complex IQ streams with customizable carrier frequencies, bandwidths, and additive white Gaussian noise (AWGN).
 * **STFT Spectral Analysis:** Implements Short-Time Fourier Transforms using `SciPy` to analyze time-varying frequency content.
 * **Windowing & Leakage Reduction:** Applies Hann/Hamming windowing functions prior to FFT execution to suppress spectral leakage.
-* **Power Spectral Density (PSD):** Converts raw complex FFT magnitudes into decibels ($\text{dB} = 10 \cdot \log_{10}(\vert{}X(f)\vert{}^2)$) for dynamic range visualization.
+* **Power Spectral Density (PSD):** Converts raw complex FFT magnitudes into decibels for dynamic range visualization.
 * **Real-Time Visualization:** Generates real-time spectrogram (waterfall) plots using `Matplotlib`.
 
 ---
@@ -18,7 +18,6 @@ A Python-based digital signal processing (DSP) pipeline designed to process real
 
 * **Language:** Python 3.x
 * **Core Libraries:** `NumPy`, `SciPy`, `Matplotlib`
-* **Target Hardware Compatibility:** RTL-SDR (v4), HackRF One (via `pyrtlsdr` integration)
 
 ---
 
